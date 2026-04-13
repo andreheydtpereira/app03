@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manutenção Prometeon 2.0</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header id="topBannerWrap" class="top-banner-wrap hidden">
+      <img id="topBanner" src="topo_prometeon.png" alt="Topo da função" />
+    </header>
+
+    <main id="mainContent" class="main-content"></main>
+
+    <footer class="bottom-zone">
+      <div class="bottom-zone-head">
+        <h2 id="bottomTitle">Funções principais</h2>
+        <button id="btnHome" class="btn-home hidden">Início</button>
+      </div>
+
+      <div class="carousel-shell">
+        <button id="btnPrev" class="nav-arrow left" aria-label="Anterior">‹</button>
+        <div id="bottomCarousel" class="bottom-carousel"></div>
+        <button id="btnNext" class="nav-arrow right" aria-label="Próximo">›</button>
+      </div>
+
+      <div id="bottomDots" class="bottom-dots"></div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
